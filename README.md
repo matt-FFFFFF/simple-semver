@@ -18,7 +18,7 @@ A github action to increment a semver string consisting of MAJOR, MINOR and PATC
 
 ## Input `semver-input`
 
-Three element string with MAJOR, MINOR and PATCH numbers, seperated by dots '.'.
+Three element string with MAJOR, MINOR and PATCH numbers, seperated by dots `.`
 
 ## Input `increment`
 
