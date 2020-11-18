@@ -7,7 +7,7 @@ A github action to increment a semver string consisting of MAJOR, MINOR and PATC
 ```yaml
 - name: Simple Semver
   id: semver
-  uses: matt-FFFFFF/simple-semver@v0.0.1
+  uses: matt-FFFFFF/simple-semver@v0.1.0
   with:
     semver-input: '1.2.34'
     increment: p
