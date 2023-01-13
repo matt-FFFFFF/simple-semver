@@ -19,5 +19,5 @@ runs:
   using: composite
   steps:
     - id: simple-semver
-      run: echo "::set-output name=semver-output::$(${{ github.action_path}}/simplesemver.sh -${{ inputs.increment }} -v ${{ inputs.semver-input }} )"
+      run: echo "semver-output=$(${{ github.action_path }}/simplesemver.sh -${{ inputs.increment }} -v ${{ inputs.semver-input }})" >> $GITHUB_OUTPUT
       shell: bash
